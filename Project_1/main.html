@@ -3,13 +3,12 @@
     <head>
         <meta charset="utf-8">
         <title></title>
-        <style>
+        <!-- <style>
             h1{
-                border-bottom: 1px solid black;
                 text-align: center;
-                padding-bottom: 10px;
-                font-size: 40px;
-                
+                font-size: 60px;
+                font-weight: bold;
+                position: absolute;
             }
             a{
                 border-width: 5px;
@@ -28,13 +27,77 @@
             a2{
                 display: block;
             }
+            a3{
+
+            }
+            
+        </style> -->
+        <style>
+            /* reset */
+            html, div, h1, h2, h3, h4, h5, h6, p, ol, ul, li, a{
+                margin: 0 0;
+                padding: 0 0;
+                list-style-type: none;
+                color: black;
+            }
+            .wrap{
+                width: 1200px;
+                margin: 0 auto;
+                /* background-color: #efefef; */
+            }
+            .banner{
+                width: 100%;
+                padding: 0 0 200px 0;
+            }
+            .banner  >h1{
+                text-align: center;
+                padding: 20px 0;
+                font-size: 60pt;
+                text-decoration: none;
+            }
+            .banner > img{
+                width: 1200px;
+            }
+        
+            ul li{
+                width: 280px;
+                padding: 0 0 0 10px;
+                display: inline-block;
+            }
+            ul img{
+                height: 200px;
+            }
+            ul p{
+                text-align: center;
+                font-size: 24px;
+                text-decoration: none;
+            }
+            a:hover{
+                cursor: pointer;
+            }
+
         </style>
     </head>
 
     <body>
-        <h1>씨앗조</h1>
-        <a2><a>이윤형</a><a>오승렬</a></a2>
-        <a2><a>서석하</a><a href="jiyoon_introduce.html">이지윤</a></a2>
+        <div class="wrap">
+            
+            <div class="banner">
+                <h1>씨앗조</h1>
+                <img src="Main_background.jpg" alt="background image">
+            </div>
+            
+            <ul>
+                <li><a href="Yoon.html"><img src="1.jpg" alt="Yoon's page"></a></li>
+                <li><a href="승렬.html"><img src="2.png" alt="승렬's page"></a></li>
+                <li><a href="seokha.html"><img src="4.png" alt="seokha's page"></a></li>
+                <li><a href="jiyoon.html"><img src="3.jpg" alt="jiyoon's page"></a></li>
+            </ul>
+        </div>
+        
+        <!-- <h1><img src="Main_background.jpg">씨앗조</h1>
+        <a2><a><img src="1.jpg" width="100%"></a><a><img src ="2.png" width="100%"></a></a2>
+        <a2><a><img src="4.png" width="100%"></a><a><img src="3.jpg" width="80%"></a></a2> -->
     </body>
 
 </html>
